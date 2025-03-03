@@ -51,7 +51,8 @@ header img {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; 
     margin: 20px 0;
     padding: 0;
     gap: 15px;
@@ -148,11 +149,16 @@ h1 {
     header{
         display: none;
     }
+    .main__container {
+        max-width: 1200px; 
+        margin-left: auto; 
+        margin-right: auto;
+    }
     .scroll-container {
         flex-wrap: wrap;
         justify-content: flex-start;
-        width: 100%;
-        margin-left: auto;
+        max-width: 1200px; 
+        margin-left: auto; 
         margin-right: auto;
         padding: 0 20px;
     }
@@ -181,7 +187,7 @@ h1 {
         height: 40px;
     }
     .headline {
-        width: 100%; 
+        max-width: 1200px; 
         margin-left: auto; 
         margin-right: auto;
         padding: 0 20px;
@@ -191,6 +197,9 @@ h1 {
     .main__pool {
         flex-direction: row; 
         align-items: flex-start;
+        max-width: 1200px; 
+        margin-left: auto; 
+        margin-right: auto; 
     }
     .main__pool__text {
         width: 50%; 
@@ -210,6 +219,9 @@ h1 {
     }
     .scroll-container {
         margin-left: 20px; 
+        max-width: 1200px; 
+        margin-left: auto; 
+        margin-right: auto; 
     }
 }
 .read {
