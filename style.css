@@ -51,7 +51,7 @@ header img {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    max-width: 1200px;
+    width: 100%;
     margin: 20px 0;
     padding: 0;
     gap: 15px;
@@ -151,7 +151,7 @@ h1 {
     .scroll-container {
         flex-wrap: wrap;
         justify-content: flex-start;
-        max-width: 1200px;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         padding: 0 20px;
@@ -179,6 +179,12 @@ h1 {
     .headline__icons img {
         width: 40px;
         height: 40px;
+    }
+    .headline {
+        width: 100%; 
+        margin-left: auto; 
+        margin-right: auto;
+        padding: 0 20px;
     }
 }
 @media (min-width: 768px) {
